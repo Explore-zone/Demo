@@ -185,7 +185,7 @@
 					<!-- MainClass in mainfest make a executable jar -->
 					<archive>
 						<manifest>
-							<mainClass>Demo/Demo/Execution.java</mainClass>
+							<mainClass>Demo.Demo.Execution.java</mainClass>
 						</manifest>
 					</archive>
 
