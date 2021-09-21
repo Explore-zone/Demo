@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Pie Charts</title>
+
+        <link rel="stylesheet" type="text/css" href="../../../../../../../../HTML_Design_Files/CSS/design.css" />
+        <link rel="stylesheet" type="text/css" href="../../../../../../../../HTML_Design_Files/CSS/jquery.jqplot.css" />
+
+        <script type="text/javascript" src="../../../../../../../../HTML_Design_Files/JS/jquery.min.js"></script>
+        <script type="text/javascript" src="../../../../../../../../HTML_Design_Files/JS/jquery.jqplot.min.js"></script>
+        <!--[if lt IE 9]>
+        <script language="javascript" type="text/javascript" src="../../../../../../../../HTML_Design_Files/JS/excanvas.js"></script>
+        <![endif]-->
+
+        <script language="javascript" type="text/javascript" src="../../../../../../../../HTML_Design_Files/JS/jqplot.pieRenderer.min.js"></script>
+        <script language="javascript" type="text/javascript">$(document).ready(function() { $(".exception").hide(); $("#showmenu").show(); $('#showmenu').click(function() { $('.exception').toggle("slide"); }); });        </script>    </head>
+    <body>
+        <table id="mainTable">
+            <tr id="header" >
+                <td id="logo"><img src="../../../../../../../../HTML_Design_Files/IMG/atu.jpg" alt="Logo" height="80" width="140" /> <br/><i style="float:left;padding-left:20px;font-size:12px">Reports Is In Progress</i></td>
+                <td id="headertext">
+           Automation Reports         
+<div style="padding-right:20px;float:right"><img src="../../../../../../../../HTML_Design_Files/IMG/ScriptAbility.jpg" height="70" width="140" /> </i></div>                </td>
+            </tr>
+
+            <tr id="container">
+                <td id="menu">
+                    <ul> 
+
+ <li class="menuStyle"><a href="../../../../../../../../index.html" >Index</a></li><li style="padding-top: 4px;"><a href="../../../../../../../ConsolidatedPage.html" >Consolidated Page</a></li>
+
+
+                    </ul>
+                </td>
+
+
+<td id="content">   
+                    <div class="info">
+                        The following table lists down the Sequential Steps during the Run <br/>
+TestCase Name: <b>Verify_Product_Details  :  Iteration 1</b><br/>                        Time Taken for Executing: <b>25 Sec</b> <br/>
+                        Current Run Number: <b>Run 2</b></br>
+Method Type: <b>Test Method</b></br>                    </div>
+<div class="info"><br/><b>Requirement Coverage/ TestCase Description</b><br/><br/>Requirement Coverage/Build Info/Cycle - Description</div>
+<div class="chartStyle summary" style="background-color: #646D7E;width: 30%; height: 200px;">          
+                        <b>Execution Platform Details</b><br/><br/>
+                        <table>
+                            <tr>
+                                <td>O.S</td>
+                                <td>&nbsp;&nbsp;:&nbsp;&nbsp;</td>
+                                <td>Windows 10, amd64Bit, v10.0</td>
+                            </tr>
+                            <tr>
+                                <td>Java</td>
+                                <td>&nbsp;&nbsp;:&nbsp;&nbsp;</td>
+                                <td>1.8.0_301</td>
+                            </tr>
+
+                            <tr>
+                                <td>Hostname</td>
+                                <td>&nbsp;&nbsp;:&nbsp;&nbsp;</td>
+                                <td>LAP000470</td>
+                            </tr>
+
+                            <tr>
+                                <td>Selenium</td>
+                                <td>&nbsp;&nbsp;:&nbsp;&nbsp;</td>
+                                <td>3.141.59</td>
+                            </tr>
+                        </table>  
+                    </div>
+                   
+ <div class="chartStyle summary" style="background-color: #7BB661;margin-left: 20px; height: 200px;width: 30%; ">
+                        <b>Summary</b><br/><br/>
+                        <table>
+                            <tr>
+                                <td>Status</td>
+                                <td>&nbsp;&nbsp;:&nbsp;&nbsp;</td>
+                                <td>Passed</td>
+                            </tr>
+                            <tr>
+                                <td>Execution Date</td>
+                                <td>&nbsp;&nbsp;:&nbsp;&nbsp;</td>
+                                <td>30-Jul-2021 12:28:05</td>
+                            </tr>
+                            
+
+                            <tr>
+                                <td>Browser</td>
+                                <td>&nbsp;&nbsp;:&nbsp;&nbsp;</td>
+                                <td>chrome,v92.0.4515.107</td>
+                            </tr>
+                        </table> 
+                    </div>
+ <div class="chartStyle summary" style="background-color: #7F525D;margin-left: 20px; height: 200px;width: 30%; ">
+                       <b>Author Info</b><br/><br/>
+                        <table>
+                            <tr>
+                                <td>Author Name</td>
+                                <td>&nbsp;&nbsp;:&nbsp;&nbsp;</td>
+                                <td>Unknown</td>                                
+                            </tr>
+                            <tr>
+                                <td>Creation Date</td>
+                                <td>&nbsp;&nbsp;:&nbsp;&nbsp;</td>
+                                <td>Unknown</td>
+                            </tr>
+                            <tr>
+                                <td>Version</td>
+                                <td>&nbsp;&nbsp;:&nbsp;&nbsp;</td>
+                                <td>Unknown</td>
+                            </tr>
+                            <tr>
+                                <td>System User</td>
+                                <td>&nbsp;&nbsp;:&nbsp;&nbsp;</td>
+                                <td>gobi.e</td>
+                            </tr>
+                        </table> 
+                    </div>
+                    
+   <div>
+                        <table class="chartStyle" id="tableStyle" style="height:50px; float: left">
+                            <tr>
+                                <th>S.No</th>
+                                <th>Step Description</th>
+                                <th>Input Value</th>
+                                <th>Expected Value</th>
+                                <th>Actual Value</th>
+                                <th>Time</th>
+                                <th>Line No</th>
+                                <th>Status</th>
+                                <th>Screen shot</th>
+                            </tr>
+                           
+
+<tr><td>1</td>
+<td>Clear & Type</td>
+<td>Standard_userD Should Clear & Type</td>
+<td></td>
+<td>Standard_userD Should be Cleared & Typed</td>
+<td>661 Milli Sec</td>
+<td>133</td>
+<td><img style="height:20px;width:20px;border:none" alt="INFO" src="../../../../../../../..//HTML_Design_Files/IMG/loginfo.png" /></td>
+<td><a href="img/1.PNG"><img alt="No Screenshot" src="img/1.PNG"/></a></td>
+</tr><tr><td>2</td>
+<td>Clear & Type</td>
+<td>secret_sauce Should Clear & Type</td>
+<td></td>
+<td>secret_sauce Should be Cleared & Typed</td>
+<td>502 Milli Sec</td>
+<td>133</td>
+<td><img style="height:20px;width:20px;border:none" alt="INFO" src="../../../../../../../..//HTML_Design_Files/IMG/loginfo.png" /></td>
+<td><a href="img/2.PNG"><img alt="No Screenshot" src="img/2.PNG"/></a></td>
+</tr><tr><td>3</td>
+<td>WaitForSeconds</td>
+<td>1 Seconds</td>
+<td>Should wait</td>
+<td>Waiting is done successfully</td>
+<td>1 Sec</td>
+<td>75</td>
+<td><img style="height:20px;width:20px;border:none"  alt="PASS" src="../../../../../../../..//HTML_Design_Files/IMG/logpass.png" /></td>
+<td><a href="img/3.PNG"><img alt="No Screenshot" src="img/3.PNG"/></a></td>
+</tr><tr><td>4</td>
+<td>Click By Xpath</td>
+<td>Should Click</td>
+<td></td>
+<td>Should be Clicked</td>
+<td>101 Milli Sec</td>
+<td>85</td>
+<td><img style="height:20px;width:20px;border:none" alt="INFO" src="../../../../../../../..//HTML_Design_Files/IMG/loginfo.png" /></td>
+<td><a href="img/4.PNG"><img alt="No Screenshot" src="img/4.PNG"/></a></td>
+</tr><tr><td>5</td>
+<td>VerifyElementPresent</td>
+<td>Should Verify</td>
+<td></td>
+<td>Epic sadface: Username and password do not match any user in this service Should be Verified</td>
+<td>97 Milli Sec</td>
+<td>188</td>
+<td><img style="height:20px;width:20px;border:none" alt="INFO" src="../../../../../../../..//HTML_Design_Files/IMG/loginfo.png" /></td>
+<td></td>
+</tr><tr><td>6</td>
+<td>WaitForSeconds</td>
+<td>1 Seconds</td>
+<td>Should wait</td>
+<td>Waiting is done successfully</td>
+<td>1 Sec</td>
+<td>75</td>
+<td><img style="height:20px;width:20px;border:none"  alt="PASS" src="../../../../../../../..//HTML_Design_Files/IMG/logpass.png" /></td>
+<td><a href="img/6.PNG"><img alt="No Screenshot" src="img/6.PNG"/></a></td>
+</tr><tr><td>7</td>
+<td>WaitForSeconds</td>
+<td>1 Seconds</td>
+<td>Should wait</td>
+<td>Waiting is done successfully</td>
+<td>1 Sec</td>
+<td>75</td>
+<td><img style="height:20px;width:20px;border:none"  alt="PASS" src="../../../../../../../..//HTML_Design_Files/IMG/logpass.png" /></td>
+<td><a href="img/7.PNG"><img alt="No Screenshot" src="img/7.PNG"/></a></td>
+</tr><tr><td>8</td>
+<td>Click By Xpath</td>
+<td>Should Click</td>
+<td></td>
+<td>Should be Clicked</td>
+<td>107 Milli Sec</td>
+<td>85</td>
+<td><img style="height:20px;width:20px;border:none" alt="INFO" src="../../../../../../../..//HTML_Design_Files/IMG/loginfo.png" /></td>
+<td><a href="img/8.PNG"><img alt="No Screenshot" src="img/8.PNG"/></a></td>
+</tr><tr><td>9</td>
+<td>Clear & Type</td>
+<td>standard_user Should Clear & Type</td>
+<td></td>
+<td>standard_user Should be Cleared & Typed</td>
+<td>518 Milli Sec</td>
+<td>133</td>
+<td><img style="height:20px;width:20px;border:none" alt="INFO" src="../../../../../../../..//HTML_Design_Files/IMG/loginfo.png" /></td>
+<td><a href="img/9.PNG"><img alt="No Screenshot" src="img/9.PNG"/></a></td>
+</tr><tr><td>10</td>
+<td>Clear & Type</td>
+<td>secret_sauce Should Clear & Type</td>
+<td></td>
+<td>secret_sauce Should be Cleared & Typed</td>
+<td>493 Milli Sec</td>
+<td>133</td>
+<td><img style="height:20px;width:20px;border:none" alt="INFO" src="../../../../../../../..//HTML_Design_Files/IMG/loginfo.png" /></td>
+<td><a href="img/10.PNG"><img alt="No Screenshot" src="img/10.PNG"/></a></td>
+</tr><tr><td>11</td>
+<td>WaitForSeconds</td>
+<td>1 Seconds</td>
+<td>Should wait</td>
+<td>Waiting is done successfully</td>
+<td>1 Sec</td>
+<td>75</td>
+<td><img style="height:20px;width:20px;border:none"  alt="PASS" src="../../../../../../../..//HTML_Design_Files/IMG/logpass.png" /></td>
+<td><a href="img/11.PNG"><img alt="No Screenshot" src="img/11.PNG"/></a></td>
+</tr><tr><td>12</td>
+<td>Click By Xpath</td>
+<td>Should Click</td>
+<td></td>
+<td>Should be Clicked</td>
+<td>84 Milli Sec</td>
+<td>85</td>
+<td><img style="height:20px;width:20px;border:none" alt="INFO" src="../../../../../../../..//HTML_Design_Files/IMG/loginfo.png" /></td>
+<td><a href="img/12.PNG"><img alt="No Screenshot" src="img/12.PNG"/></a></td>
+</tr><tr><td>13</td>
+<td>WaitForSeconds</td>
+<td>1 Seconds</td>
+<td>Should wait</td>
+<td>Waiting is done successfully</td>
+<td>1 Sec</td>
+<td>75</td>
+<td><img style="height:20px;width:20px;border:none"  alt="PASS" src="../../../../../../../..//HTML_Design_Files/IMG/logpass.png" /></td>
+<td><a href="img/13.PNG"><img alt="No Screenshot" src="img/13.PNG"/></a></td>
+</tr><tr><td>14</td>
+<td>VerifyElementPresent</td>
+<td>Should Verify</td>
+<td></td>
+<td>Sauce Labs Backpack
+carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
+$29.99
+ADD TO CART Should be Verified</td>
+<td>83 Milli Sec</td>
+<td>188</td>
+<td><img style="height:20px;width:20px;border:none" alt="INFO" src="../../../../../../../..//HTML_Design_Files/IMG/loginfo.png" /></td>
+<td></td>
+</tr><tr><td>15</td>
+<td>VerifyElementPresent</td>
+<td>Should Verify</td>
+<td></td>
+<td> Should be Verified</td>
+<td>65 Milli Sec</td>
+<td>188</td>
+<td><img style="height:20px;width:20px;border:none" alt="INFO" src="../../../../../../../..//HTML_Design_Files/IMG/loginfo.png" /></td>
+<td></td>
+</tr><tr><td>16</td>
+<td>VerifyElementPresent</td>
+<td>Should Verify</td>
+<td></td>
+<td>Sauce Labs Backpack
+carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.
+$29.99
+ADD TO CART Should be Verified</td>
+<td>53 Milli Sec</td>
+<td>188</td>
+<td><img style="height:20px;width:20px;border:none" alt="INFO" src="../../../../../../../..//HTML_Design_Files/IMG/loginfo.png" /></td>
+<td></td>
+</tr><tr><td>17</td>
+<td>VerifyElementPresent</td>
+<td>Should Verify</td>
+<td></td>
+<td>Sauce Labs Backpack
+carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection. Should be Verified</td>
+<td>61 Milli Sec</td>
+<td>188</td>
+<td><img style="height:20px;width:20px;border:none" alt="INFO" src="../../../../../../../..//HTML_Design_Files/IMG/loginfo.png" /></td>
+<td></td>
+</tr><tr><td>18</td>
+<td>VerifyElementPresent</td>
+<td>Should Verify</td>
+<td></td>
+<td>Sauce Labs Backpack Should be Verified</td>
+<td>46 Milli Sec</td>
+<td>188</td>
+<td><img style="height:20px;width:20px;border:none" alt="INFO" src="../../../../../../../..//HTML_Design_Files/IMG/loginfo.png" /></td>
+<td></td>
+</tr><tr><td>19</td>
+<td>VerifyElementPresent</td>
+<td>Should Verify</td>
+<td></td>
+<td>carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection. Should be Verified</td>
+<td>49 Milli Sec</td>
+<td>188</td>
+<td><img style="height:20px;width:20px;border:none" alt="INFO" src="../../../../../../../..//HTML_Design_Files/IMG/loginfo.png" /></td>
+<td></td>
+</tr><tr><td>20</td>
+<td>VerifyElementPresent</td>
+<td>Should Verify</td>
+<td></td>
+<td>$29.99 Should be Verified</td>
+<td>48 Milli Sec</td>
+<td>188</td>
+<td><img style="height:20px;width:20px;border:none" alt="INFO" src="../../../../../../../..//HTML_Design_Files/IMG/loginfo.png" /></td>
+<td></td>
+</tr><tr><td>21</td>
+<td>VerifyElementPresent</td>
+<td>Should Verify</td>
+<td></td>
+<td>ADD TO CART Should be Verified</td>
+<td>49 Milli Sec</td>
+<td>188</td>
+<td><img style="height:20px;width:20px;border:none" alt="INFO" src="../../../../../../../..//HTML_Design_Files/IMG/loginfo.png" /></td>
+<td></td>
+</tr><tr><td>22</td>
+<td>WaitForSeconds</td>
+<td>1 Seconds</td>
+<td>Should wait</td>
+<td>Waiting is done successfully</td>
+<td>1 Sec</td>
+<td>75</td>
+<td><img style="height:20px;width:20px;border:none"  alt="PASS" src="../../../../../../../..//HTML_Design_Files/IMG/logpass.png" /></td>
+<td><a href="img/22.PNG"><img alt="No Screenshot" src="img/22.PNG"/></a></td>
+</tr><tr><td>23</td>
+<td>Click By Xpath</td>
+<td>Should Click</td>
+<td></td>
+<td>Should be Clicked</td>
+<td>116 Milli Sec</td>
+<td>85</td>
+<td><img style="height:20px;width:20px;border:none" alt="INFO" src="../../../../../../../..//HTML_Design_Files/IMG/loginfo.png" /></td>
+<td><a href="img/23.PNG"><img alt="No Screenshot" src="img/23.PNG"/></a></td>
+</tr><tr><td>24</td>
+<td>WaitForSeconds</td>
+<td>1 Seconds</td>
+<td>Should wait</td>
+<td>Waiting is done successfully</td>
+<td>1 Sec</td>
+<td>75</td>
+<td><img style="height:20px;width:20px;border:none"  alt="PASS" src="../../../../../../../..//HTML_Design_Files/IMG/logpass.png" /></td>
+<td><a href="img/24.PNG"><img alt="No Screenshot" src="img/24.PNG"/></a></td>
+</tr><tr><td>25</td>
+<td>VerifyElementPresent</td>
+<td>Should Verify</td>
+<td></td>
+<td> Should be Verified</td>
+<td>87 Milli Sec</td>
+<td>188</td>
+<td><img style="height:20px;width:20px;border:none" alt="INFO" src="../../../../../../../..//HTML_Design_Files/IMG/loginfo.png" /></td>
+<td></td>
+</tr><tr><td>26</td>
+<td>VerifyElementPresent</td>
+<td>Should Verify</td>
+<td></td>
+<td>Sauce Labs Backpack Should be Verified</td>
+<td>49 Milli Sec</td>
+<td>188</td>
+<td><img style="height:20px;width:20px;border:none" alt="INFO" src="../../../../../../../..//HTML_Design_Files/IMG/loginfo.png" /></td>
+<td></td>
+</tr><tr><td>27</td>
+<td>VerifyElementPresent</td>
+<td>Should Verify</td>
+<td></td>
+<td>carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection. Should be Verified</td>
+<td>66 Milli Sec</td>
+<td>188</td>
+<td><img style="height:20px;width:20px;border:none" alt="INFO" src="../../../../../../../..//HTML_Design_Files/IMG/loginfo.png" /></td>
+<td></td>
+</tr><tr><td>28</td>
+<td>VerifyElementPresent</td>
+<td>Should Verify</td>
+<td></td>
+<td>$29.99 Should be Verified</td>
+<td>48 Milli Sec</td>
+<td>188</td>
+<td><img style="height:20px;width:20px;border:none" alt="INFO" src="../../../../../../../..//HTML_Design_Files/IMG/loginfo.png" /></td>
+<td></td>
+</tr><tr><td>29</td>
+<td>VerifyElementPresent</td>
+<td>Should Verify</td>
+<td></td>
+<td>ADD TO CART Should be Verified</td>
+<td>63 Milli Sec</td>
+<td>188</td>
+<td><img style="height:20px;width:20px;border:none" alt="INFO" src="../../../../../../../..//HTML_Design_Files/IMG/loginfo.png" /></td>
+<td></td>
+</tr><tr><td>30</td>
+<td>WaitForSeconds</td>
+<td>1 Seconds</td>
+<td>Should wait</td>
+<td>Waiting is done successfully</td>
+<td>1 Sec</td>
+<td>75</td>
+<td><img style="height:20px;width:20px;border:none"  alt="PASS" src="../../../../../../../..//HTML_Design_Files/IMG/logpass.png" /></td>
+<td><a href="img/30.PNG"><img alt="No Screenshot" src="img/30.PNG"/></a></td>
+</tr><tr><td>31</td>
+<td>Click By Xpath</td>
+<td>Should Click</td>
+<td></td>
+<td>Should be Clicked</td>
+<td>116 Milli Sec</td>
+<td>85</td>
+<td><img style="height:20px;width:20px;border:none" alt="INFO" src="../../../../../../../..//HTML_Design_Files/IMG/loginfo.png" /></td>
+<td><a href="img/31.PNG"><img alt="No Screenshot" src="img/31.PNG"/></a></td>
+</tr><tr><td>32</td>
+<td>WaitForSeconds</td>
+<td>1 Seconds</td>
+<td>Should wait</td>
+<td>Waiting is done successfully</td>
+<td>1 Sec</td>
+<td>75</td>
+<td><img style="height:20px;width:20px;border:none"  alt="PASS" src="../../../../../../../..//HTML_Design_Files/IMG/logpass.png" /></td>
+<td><a href="img/32.PNG"><img alt="No Screenshot" src="img/32.PNG"/></a></td>
+</tr><tr><td>33</td>
+<td>VerifyElementPresent</td>
+<td>Should Verify</td>
+<td></td>
+<td>REMOVE Should be Verified</td>
+<td>77 Milli Sec</td>
+<td>188</td>
+<td><img style="height:20px;width:20px;border:none" alt="INFO" src="../../../../../../../..//HTML_Design_Files/IMG/loginfo.png" /></td>
+<td></td>
+</tr><tr><td>34</td>
+<td>VerifyElementPresent</td>
+<td>Should Verify</td>
+<td></td>
+<td>1 Should be Verified</td>
+<td>51 Milli Sec</td>
+<td>188</td>
+<td><img style="height:20px;width:20px;border:none" alt="INFO" src="../../../../../../../..//HTML_Design_Files/IMG/loginfo.png" /></td>
+<td></td>
+</tr><tr><td>35</td>
+<td>WaitForSeconds</td>
+<td>1 Seconds</td>
+<td>Should wait</td>
+<td>Waiting is done successfully</td>
+<td>1 Sec</td>
+<td>75</td>
+<td><img style="height:20px;width:20px;border:none"  alt="PASS" src="../../../../../../../..//HTML_Design_Files/IMG/logpass.png" /></td>
+<td><a href="img/35.PNG"><img alt="No Screenshot" src="img/35.PNG"/></a></td>
+</tr><tr><td>36</td>
+<td>Click By Xpath</td>
+<td>Should Click</td>
+<td></td>
+<td>Should be Clicked</td>
+<td>84 Milli Sec</td>
+<td>85</td>
+<td><img style="height:20px;width:20px;border:none" alt="INFO" src="../../../../../../../..//HTML_Design_Files/IMG/loginfo.png" /></td>
+<td><a href="img/36.PNG"><img alt="No Screenshot" src="img/36.PNG"/></a></td>
+</tr><tr><td>37</td>
+<td>WaitForSeconds</td>
+<td>1 Seconds</td>
+<td>Should wait</td>
+<td>Waiting is done successfully</td>
+<td>1 Sec</td>
+<td>75</td>
+<td><img style="height:20px;width:20px;border:none"  alt="PASS" src="../../../../../../../..//HTML_Design_Files/IMG/logpass.png" /></td>
+<td><a href="img/37.PNG"><img alt="No Screenshot" src="img/37.PNG"/></a></td>
+</tr><tr><td>38</td>
+<td>VerifyElementPresent</td>
+<td>Should Verify</td>
+<td></td>
+<td>YOUR CART Should be Verified</td>
+<td>89 Milli Sec</td>
+<td>188</td>
+<td><img style="height:20px;width:20px;border:none" alt="INFO" src="../../../../../../../..//HTML_Design_Files/IMG/loginfo.png" /></td>
+<td></td>
+</tr><tr><td>39</td>
+<td>VerifyElementPresent</td>
+<td>Should Verify</td>
+<td></td>
+<td>QTY Should be Verified</td>
+<td>59 Milli Sec</td>
+<td>188</td>
+<td><img style="height:20px;width:20px;border:none" alt="INFO" src="../../../../../../../..//HTML_Design_Files/IMG/loginfo.png" /></td>
+<td></td>
+</tr><tr><td>40</td>
+<td>VerifyElementPresent</td>
+<td>Should Verify</td>
+<td></td>
+<td>DESCRIPTION Should be Verified</td>
+<td>60 Milli Sec</td>
+<td>188</td>
+<td><img style="height:20px;width:20px;border:none" alt="INFO" src="../../../../../../../..//HTML_Design_Files/IMG/loginfo.png" /></td>
+<td></td>
+</tr><tr><td>41</td>
+<td>VerifyElementPresent</td>
+<td>Should Verify</td>
+<td></td>
+<td>1 Should be Verified</td>
+<td>64 Milli Sec</td>
+<td>188</td>
+<td><img style="height:20px;width:20px;border:none" alt="INFO" src="../../../../../../../..//HTML_Design_Files/IMG/loginfo.png" /></td>
+<td></td>
+</tr><tr><td>42</td>
+<td>VerifyElementPresent</td>
+<td>Should Verify</td>
+<td></td>
+<td>Sauce Labs Backpack Should be Verified</td>
+<td>49 Milli Sec</td>
+<td>188</td>
+<td><img style="height:20px;width:20px;border:none" alt="INFO" src="../../../../../../../..//HTML_Design_Files/IMG/loginfo.png" /></td>
+<td></td>
+</tr><tr><td>43</td>
+<td>VerifyElementPresent</td>
+<td>Should Verify</td>
+<td></td>
+<td>carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection. Should be Verified</td>
+<td>65 Milli Sec</td>
+<td>188</td>
+<td><img style="height:20px;width:20px;border:none" alt="INFO" src="../../../../../../../..//HTML_Design_Files/IMG/loginfo.png" /></td>
+<td></td>
+</tr><tr><td>44</td>
+<td>VerifyElementPresent</td>
+<td>Should Verify</td>
+<td></td>
+<td>$29.99 Should be Verified</td>
+<td>49 Milli Sec</td>
+<td>188</td>
+<td><img style="height:20px;width:20px;border:none" alt="INFO" src="../../../../../../../..//HTML_Design_Files/IMG/loginfo.png" /></td>
+<td></td>
+</tr><tr><td>45</td>
+<td>VerifyElementPresent</td>
+<td>Should Verify</td>
+<td></td>
+<td>REMOVE Should be Verified</td>
+<td>68 Milli Sec</td>
+<td>188</td>
+<td><img style="height:20px;width:20px;border:none" alt="INFO" src="../../../../../../../..//HTML_Design_Files/IMG/loginfo.png" /></td>
+<td></td>
+</tr><tr><td>46</td>
+<td>WaitForSeconds</td>
+<td>1 Seconds</td>
+<td>Should wait</td>
+<td>Waiting is done successfully</td>
+<td>1 Sec</td>
+<td>75</td>
+<td><img style="height:20px;width:20px;border:none"  alt="PASS" src="../../../../../../../..//HTML_Design_Files/IMG/logpass.png" /></td>
+<td><a href="img/46.PNG"><img alt="No Screenshot" src="img/46.PNG"/></a></td>
+</tr><tr><td>47</td>
+<td>Click By Xpath</td>
+<td>Should Click</td>
+<td></td>
+<td>Should be Clicked</td>
+<td>82 Milli Sec</td>
+<td>85</td>
+<td><img style="height:20px;width:20px;border:none" alt="INFO" src="../../../../../../../..//HTML_Design_Files/IMG/loginfo.png" /></td>
+<td><a href="img/47.PNG"><img alt="No Screenshot" src="img/47.PNG"/></a></td>
+</tr><tr><td>48</td>
+<td>WaitForSeconds</td>
+<td>1 Seconds</td>
+<td>Should wait</td>
+<td>Waiting is done successfully</td>
+<td>1 Sec</td>
+<td>75</td>
+<td><img style="height:20px;width:20px;border:none"  alt="PASS" src="../../../../../../../..//HTML_Design_Files/IMG/logpass.png" /></td>
+<td><a href="img/48.PNG"><img alt="No Screenshot" src="img/48.PNG"/></a></td>
+</tr><tr><td>49</td>
+<td>VerifyElementPresent</td>
+<td>Should Verify</td>
+<td></td>
+<td>Open Menu Should be Verified</td>
+<td>86 Milli Sec</td>
+<td>188</td>
+<td><img style="height:20px;width:20px;border:none" alt="INFO" src="../../../../../../../..//HTML_Design_Files/IMG/loginfo.png" /></td>
+<td></td>
+</tr><tr><td>50</td>
+<td>WaitForSeconds</td>
+<td>1 Seconds</td>
+<td>Should wait</td>
+<td>Waiting is done successfully</td>
+<td>1 Sec</td>
+<td>75</td>
+<td><img style="height:20px;width:20px;border:none"  alt="PASS" src="../../../../../../../..//HTML_Design_Files/IMG/logpass.png" /></td>
+<td><a href="img/50.PNG"><img alt="No Screenshot" src="img/50.PNG"/></a></td>
+</tr><tr><td>51</td>
+<td>Click By Xpath</td>
+<td>Should Click</td>
+<td></td>
+<td>Should be Clicked</td>
+<td>77 Milli Sec</td>
+<td>85</td>
+<td><img style="height:20px;width:20px;border:none" alt="INFO" src="../../../../../../../..//HTML_Design_Files/IMG/loginfo.png" /></td>
+<td><a href="img/51.PNG"><img alt="No Screenshot" src="img/51.PNG"/></a></td>
+</tr><tr><td>52</td>
+<td>WaitForSeconds</td>
+<td>1 Seconds</td>
+<td>Should wait</td>
+<td>Waiting is done successfully</td>
+<td>1 Sec</td>
+<td>75</td>
+<td><img style="height:20px;width:20px;border:none"  alt="PASS" src="../../../../../../../..//HTML_Design_Files/IMG/logpass.png" /></td>
+<td><a href="img/52.PNG"><img alt="No Screenshot" src="img/52.PNG"/></a></td>
+</tr><tr><td>53</td>
+<td>VerifyElementPresent</td>
+<td>Should Verify</td>
+<td></td>
+<td>ALL ITEMS Should be Verified</td>
+<td>54 Milli Sec</td>
+<td>188</td>
+<td><img style="height:20px;width:20px;border:none" alt="INFO" src="../../../../../../../..//HTML_Design_Files/IMG/loginfo.png" /></td>
+<td></td>
+</tr><tr><td>54</td>
+<td>VerifyElementPresent</td>
+<td>Should Verify</td>
+<td></td>
+<td>ABOUT Should be Verified</td>
+<td>55 Milli Sec</td>
+<td>188</td>
+<td><img style="height:20px;width:20px;border:none" alt="INFO" src="../../../../../../../..//HTML_Design_Files/IMG/loginfo.png" /></td>
+<td></td>
+</tr><tr><td>55</td>
+<td>VerifyElementPresent</td>
+<td>Should Verify</td>
+<td></td>
+<td>LOGOUT Should be Verified</td>
+<td>52 Milli Sec</td>
+<td>188</td>
+<td><img style="height:20px;width:20px;border:none" alt="INFO" src="../../../../../../../..//HTML_Design_Files/IMG/loginfo.png" /></td>
+<td></td>
+</tr><tr><td>56</td>
+<td>VerifyElementPresent</td>
+<td>Should Verify</td>
+<td></td>
+<td>RESET APP STATE Should be Verified</td>
+<td>58 Milli Sec</td>
+<td>188</td>
+<td><img style="height:20px;width:20px;border:none" alt="INFO" src="../../../../../../../..//HTML_Design_Files/IMG/loginfo.png" /></td>
+<td></td>
+</tr><tr><td>57</td>
+<td>WaitForSeconds</td>
+<td>1 Seconds</td>
+<td>Should wait</td>
+<td>Waiting is done successfully</td>
+<td>1 Sec</td>
+<td>75</td>
+<td><img style="height:20px;width:20px;border:none"  alt="PASS" src="../../../../../../../..//HTML_Design_Files/IMG/logpass.png" /></td>
+<td><a href="img/57.PNG"><img alt="No Screenshot" src="img/57.PNG"/></a></td>
+</tr><tr><td>58</td>
+<td>Click By Xpath</td>
+<td>Should Click</td>
+<td></td>
+<td>Should be Clicked</td>
+<td>81 Milli Sec</td>
+<td>85</td>
+<td><img style="height:20px;width:20px;border:none" alt="INFO" src="../../../../../../../..//HTML_Design_Files/IMG/loginfo.png" /></td>
+<td><a href="img/58.PNG"><img alt="No Screenshot" src="img/58.PNG"/></a></td>
+</tr><tr><td>59</td>
+<td>WaitForSeconds</td>
+<td>2 Seconds</td>
+<td>Should wait</td>
+<td>Waiting is done successfully</td>
+<td>2 Sec</td>
+<td>75</td>
+<td><img style="height:20px;width:20px;border:none"  alt="PASS" src="../../../../../../../..//HTML_Design_Files/IMG/logpass.png" /></td>
+<td><a href="img/59.PNG"><img alt="No Screenshot" src="img/59.PNG"/></a></td>
+</tr>
+                        </table>  
+                    </div>
+
+                </td>
+            </tr>            <tr id="footer">                <td colspan="2">                    Best Viewed in &nbsp;                    <a href="http://www.mozilla.org/en-US/firefox/new/">Firefox</a> &nbsp;                    <a href="http://www.apple.com/in/safari/">Safari</a>&nbsp;                    <a href="http://www.google.com/chrome/">Chrome</a>&nbsp;                    <a href="http://windows.microsoft.com/en-IN/internet-explorer/download-ie">IE 9 & Above</a>&nbsp;                    &nbsp;ScriptAbility Reporter Version: v-0.0.1                    &nbsp;                    Reports by: <a href="https://www.mistralsolutions.com/">Mistral Automation Testing</a>                </td>            </tr>        </table>    </body></html>
