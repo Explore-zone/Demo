@@ -16,7 +16,7 @@ public class Execution {
 		testng.setTestClasses(new Class[] { TestList.class });
 		testng.addListener(tla);
 		testng.run();  	
-		//Execution Done
+		//Execution
 		 
 	}
 
