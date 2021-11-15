@@ -5,7 +5,7 @@
     <classes>
       <class name="Demo.Demo.TestList">
         <methods>
-          <include name="File_Operations_Fields"/>
+          <include name="Verify_Product_Details"/>
           <include name="Application_Launch1"/>
           <include name="Application_Quit"/>
         </methods>
